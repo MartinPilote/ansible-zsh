@@ -1,0 +1,7 @@
+---
+- name: install package
+  tags: packages,workstation-packages
+  package:
+    name: zsh
+    state: latest
+...
